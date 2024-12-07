@@ -6,6 +6,7 @@ import AboutAlfarooq from "./components/AboutAlfarooq/AboutAlfarooq.jsx";
 import ContactAlfarooq from "./components/ContactAlfarooq/ContactAlfarooq.jsx";
 import AlfarooqsProjects from "./components/AlfarooqsProjects/AlfarooqsProjects.jsx";
 import AlfarooqsLinks from "./components/AlfarooqsLinks/AlfarooqsLinks.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/alfarooq's-projects" element={<AlfarooqsProjects />} />
           <Route path="/alfarooq's-links" element={<AlfarooqsLinks />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
