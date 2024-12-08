@@ -6,20 +6,25 @@
 }
 
 header {
+  font-family: "FF Mark Pro", sans-serif;
   background-color: rgb(255, 255, 255);
   padding: 10px;
   margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.portfolio-title {
+  font-size: x-large;
+  color: #eb1b24;
+  width: 25%;
+  margin: 0%;
 }
 
 .all-the-links {
-  width: 80%;
+  width: 100%;
   margin: auto;
-  text-align: center;
-  font-family: "FF Mark Pro", sans-serif;
-  padding: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  text-align: right;
 }
 
 .individual-link {
@@ -27,18 +32,16 @@ header {
   background-color: #eb1b24;
   font-weight: bold;
   padding: 20px;
-  height: 20px;
-  width: 200px;
   font-size: 1em;
-  margin: 5px;
+  margin: 10px;
   text-decoration: none;
   transition: color 0.2s ease, background-color 0.2s ease,
     text-decoration 0.2s ease;
   color: "inherit";
-  text-align: center;
   position: relative;
-  justify-content: center; /* Centers horizontally */
-  align-items: center; /* Centers vertically */
+  text-align: center; /* Centers text without flex */
+  display: inline-block; /* Prevent collapsing of dimensions */
+  vertical-align: middle; /* Aligns text properly */
   z-index: 10;
 }
 
@@ -53,7 +56,7 @@ header {
   width: 0; /* Start with no width */
   height: 100%; /* Thickness of the line */
   bottom: 0;
-  background-color: #850a0a;
+  background-color: #302929;
   transition: width 0.3s ease; /* Smooth transition */
   z-index: -1;
 }
@@ -64,9 +67,27 @@ header {
   text-align: center;
   left: 0;
   width: 100%; /* Expand the line to full width on hover */
-  background-color: #850a0a;
+  background-color: #302929;
   z-index: -1;
 }
+
+/* .individual-link-active-page {
+  color: #ffffff;
+  background-color: #302929;
+  font-weight: bold;
+  padding: 20px;
+  font-size: 1em;
+  margin: 10px;
+  text-decoration: none;
+  transition: color 0.2s ease, background-color 0.2s ease,
+    text-decoration 0.2s ease;
+  color: "inherit";
+  position: relative;
+  text-align: center; 
+  display: inline-block; 
+  vertical-align: middle; 
+  z-index: 10;
+} */
 
 .arrow-icon {
   width: 10px;

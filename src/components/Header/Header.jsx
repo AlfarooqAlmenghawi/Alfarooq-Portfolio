@@ -1,4 +1,4 @@
-import { Link, NavLink, useNavigate } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import "./Header.css";
 
 const arrowIcon = (
@@ -15,9 +15,12 @@ const arrowIcon = (
 );
 
 const Header = () => {
+  const url = useLocation();
+  console.log(url.pathname);
   return (
     <>
       <header>
+        <h1 className="portfolio-title">Alfarooq's Portfolio</h1>
         <div className="all-the-links">
           <Link className="individual-link" to="/" data-text="Home">
             Home {arrowIcon}
@@ -30,19 +33,20 @@ const Header = () => {
           >
             About Alfarooq {arrowIcon}
           </Link>
-          <Link
-            className="individual-link"
-            to="/contact-alfarooq"
-            data-text="Contact Alfarooq"
-          >
-            Contact Alfarooq {arrowIcon}
-          </Link>
+
           <Link
             className="individual-link"
             to="/alfarooq's-projects"
             data-text="Alfarooq's Projects"
           >
             Alfarooq's Projects {arrowIcon}
+          </Link>
+          <Link
+            className="individual-link"
+            to="/contact-alfarooq"
+            data-text="Contact Alfarooq"
+          >
+            Contact Alfarooq {arrowIcon}
           </Link>
           <Link
             className="individual-link"
