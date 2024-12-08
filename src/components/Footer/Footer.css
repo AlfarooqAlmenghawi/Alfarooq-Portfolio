@@ -1,0 +1,11 @@
+footer {
+  background-color: lightblue;
+  padding: 0.5px;
+  margin: auto;
+}
+
+.footer-text {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}

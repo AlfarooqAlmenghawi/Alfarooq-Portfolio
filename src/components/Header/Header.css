@@ -1,0 +1,15 @@
+header {
+  background-color: lightblue;
+  padding: 10px;
+  margin: auto;
+}
+
+.all-the-links {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.individual-link {
+  padding: 10px;
+}
