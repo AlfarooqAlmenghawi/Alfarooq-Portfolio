@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "FF Mark Pro";
+  src: url("fonts/ffmarkpro.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.section-title {
+  font-family: "FF Mark Pro", sans-serif;
+  font-weight: normal;
+  font-size: 200%;
+  color: red;
+  text-align: center;
+  margin: auto;
+  display: block;
+  padding: 30px;
+}
+
+.section-information {
+  font-family: "FF Mark Pro", sans-serif;
+  font-weight: normal;
+  text-align: center;
+}
