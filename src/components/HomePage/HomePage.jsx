@@ -41,7 +41,7 @@ const HomePage = () => {
           repeat={Infinity}
         />
       </section>
-      <p className="section-information">Lorem ipsum</p>
+      <p className="section-information">["About Alfarooq" button here]</p>
     </main>
   );
 };
