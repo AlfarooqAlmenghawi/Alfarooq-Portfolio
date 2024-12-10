@@ -21,7 +21,7 @@ const Header = () => {
     <>
       <header>
         <h1 className="portfolio-title">Alfarooq's Portfolio</h1>
-        <div className="all-the-links">
+        <section className="all-the-links">
           {url.pathname === "/" ? (
             <Link
               className="individual-link-active-page"
@@ -107,7 +107,7 @@ const Header = () => {
               Alfarooq's Links {arrowIcon}
             </Link>
           )}
-        </div>
+        </section>
       </header>
     </>
   );
