@@ -1,9 +1,19 @@
 import "./HomePage.css";
 import { TypeAnimation } from "react-type-animation";
+import { useEffect } from "react";
 
 const HomePage = () => {
+  useEffect(() => {
+    // Set the background color when the component is mounted
+    document.body.style.backgroundColor = "black";
+    // Reset the background color when the component is unmounted
+    return () => {
+      document.body.style.backgroundColor = "";
+    };
+  }, []);
+
   return (
-    <main>
+    <main className="home-page-content">
       <section className="section-title-sizing">
         <TypeAnimation
           className="section-title"
@@ -31,7 +41,7 @@ const HomePage = () => {
           repeat={Infinity}
         />
       </section>
-      <p className="section-information"></p>
+      <p className="section-information">Lorem ipsum</p>
     </main>
   );
 };
