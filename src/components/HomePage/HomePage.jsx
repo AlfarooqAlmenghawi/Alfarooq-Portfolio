@@ -25,9 +25,9 @@ const HomePage = () => {
       // Initialize particles.js after the script is loaded
       window.particlesJS("particles-js", {
         particles: {
-          number: { value: 200 },
+          number: { value: 100 },
           size: { value: 3 },
-          move: { speed: 2 },
+          move: { speed: 3 },
           color: { value: ["#ff0040"] },
           // Set particle color here
           line_linked: { color: "#ff0040" }, // Link line color
