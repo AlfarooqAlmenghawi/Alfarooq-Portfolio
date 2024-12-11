@@ -18,16 +18,47 @@ const arrowIcon = (
 
 const HomePage = () => {
   useEffect(() => {
-    // Set the background color when the component is mounted
-    document.body.style.backgroundColor = "black";
-    // Reset the background color when the component is unmounted
+    // Dynamically load the particles.js library
+    const script = document.createElement("script");
+    script.src = "https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js";
+    script.onload = () => {
+      // Initialize particles.js after the script is loaded
+      window.particlesJS("particles-js", {
+        particles: {
+          number: { value: 200 },
+          size: { value: 3 },
+          move: { speed: 2 },
+          color: { value: ["#ff0040"] },
+          // Set particle color here
+          line_linked: { color: "#ff0040" }, // Link line color
+        },
+        interactivity: {
+          events: {
+            onhover: {
+              enable: true, // Ensure hover is enabled
+              mode: "repulse", // Choose the desired interaction mode
+            },
+          },
+          modes: {
+            repulse: {
+              distance: 100, // Distance at which particles repulse
+              duration: 0.4, // Duration of the effect
+            },
+          },
+        },
+      });
+    };
+    document.body.appendChild(script);
+
+    // Cleanup script element on component unmount
     return () => {
-      document.body.style.backgroundColor = "";
+      document.body.removeChild(script);
     };
   }, []);
 
   return (
     <main className="home-page-content">
+      <div id="particles-js" className="background"></div>
       <section className="section-title-sizing">
         <TypeAnimation
           className="section-title"
