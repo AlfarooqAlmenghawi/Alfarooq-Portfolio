@@ -1,6 +1,20 @@
 import "./HomePage.css";
 import { TypeAnimation } from "react-type-animation";
+import { Link } from "react-router-dom";
 import { useEffect } from "react";
+
+const arrowIcon = (
+  <>
+    <svg
+      className="arrow-icon"
+      fill="currentColor"
+      viewBox="0 0 7 12"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M0 10.6L4.2 6 0 1.4 1.3 0l5.5 6-5.5 6L0 10.6z"></path>
+    </svg>
+  </>
+);
 
 const HomePage = () => {
   useEffect(() => {
@@ -22,7 +36,7 @@ const HomePage = () => {
             3000,
             "",
             1000,
-            "Graduated from Northcoders, aspiring to shape the tech industry",
+            "Graduated from a coding bootcamp, aspiring to shape the tech industry",
             3000,
             "",
             1000,
@@ -41,7 +55,18 @@ const HomePage = () => {
           repeat={Infinity}
         />
       </section>
-      <p className="section-information">["About Alfarooq" button here]</p>
+      <summary className="home-summary">
+        <p className="section-information">
+          Find more information about me and my full story here:
+        </p>
+        <Link
+          className="about-button"
+          to="/about-alfarooq"
+          data-text="About Alfarooq"
+        >
+          About Alfarooq {arrowIcon}
+        </Link>
+      </summary>
     </main>
   );
 };

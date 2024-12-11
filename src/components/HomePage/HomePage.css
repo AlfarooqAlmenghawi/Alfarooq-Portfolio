@@ -30,12 +30,58 @@
   padding: 20px;
 }
 
+.home-summary {
+  width: 50%;
+}
+
 .section-information {
   font-family: "FF Mark Pro", sans-serif;
   font-weight: normal;
+  font-size: 35px;
   color: white;
-  width: 30%;
-  height: 100%;
-  text-align: center;
+  text-align: left;
+  margin: 40px 20px 20px 20px;
+}
+
+.about-button {
+  font-family: "FF Mark Pro", sans-serif;
+  color: #ffffff;
+  background-color: #eb1b24;
+  font-weight: bold;
   padding: 20px;
+  font-size: 1em;
+  margin: 20px;
+  text-decoration: none;
+  color: "inherit";
+  position: relative;
+  text-align: center; /* Centers text without flex */
+  display: inline-block; /* Prevent collapsing of dimensions */
+  vertical-align: middle; /* Aligns text properly */
+  z-index: 10;
+}
+
+.about-button:hover {
+  background-color: #d3242d;
+}
+
+.about-button::after {
+  content: ""; /* Empty content for the line */
+  position: absolute;
+  right: 0; /* Where it transitions towards! */
+  width: 0; /* Start with no width */
+  height: 100%; /* Thickness of the line */
+  bottom: 0;
+  background-color: #302929;
+  transition: width 0.3s ease; /* Smooth transition */
+  z-index: -1;
+}
+
+.about-button:hover::after {
+  /* content: attr(data-text); */
+  position: absolute;
+  text-align: center;
+  left: 0;
+  width: 100%; /* Expand the line to full width on hover */
+  background-color: #302929;
+  z-index: -1;
 }
