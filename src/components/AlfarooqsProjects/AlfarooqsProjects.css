@@ -31,4 +31,82 @@
   color: rgb(255, 255, 255);
   text-align: center;
   display: block;
+  margin: 0;
+}
+
+.late-plate-section {
+  font-family: "FF Mark Pro", sans-serif;
+}
+
+.late-plate-main-content {
+  display: flex;
+}
+
+.late-plate-title {
+  font-weight: normal;
+  font-size: 30px;
+  margin: 20px;
+  color: white;
+}
+
+.late-plate-image {
+  width: 25em;
+  margin: 20px;
+  border: 3px solid;
+  border-color: aqua;
+}
+
+.descriptions-and-links {
+  position: relative;
+}
+
+.late-plate-description {
+  margin-top: 25px;
+  width: 97%;
+  color: white;
+}
+
+.projects-links-button {
+  font-family: "FF Mark Pro", sans-serif;
+  color: #ffffff;
+  background-color: #1f1beb;
+  font-weight: bold;
+  padding: 20px;
+  font-size: 1em;
+  margin-right: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: "inherit";
+  position: relative; /* instead of absolute */
+  text-align: center; /* Centers text without flex */
+  display: inline-block; /* Prevent collapsing of dimensions */
+  vertical-align: middle; /* Aligns text properly */
+  z-index: 10;
+  /* bottom: 0; */
+}
+
+.projects-links-button:hover {
+  background-color: #1f1beb;
+}
+
+.projects-links-button::after {
+  content: ""; /* Empty content for the line */
+  position: absolute;
+  right: 0; /* Where it transitions towards! */
+  width: 0; /* Start with no width */
+  height: 100%; /* Thickness of the line */
+  bottom: 0;
+  background-color: #302929;
+  transition: width 0.3s ease; /* Smooth transition */
+  z-index: -1;
+}
+
+.projects-links-button:hover::after {
+  /* content: attr(data-text); */
+  position: absolute;
+  text-align: center;
+  left: 0;
+  width: 100%; /* Expand the line to full width on hover */
+  background-color: #302929;
+  z-index: -1;
 }
