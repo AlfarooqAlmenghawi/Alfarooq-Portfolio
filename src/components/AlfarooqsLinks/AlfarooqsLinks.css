@@ -1,0 +1,82 @@
+#particles-js-links {
+  background-color: rgb(23, 221, 211); /* Set background color */
+  position: fixed; /* Use fixed positioning */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; /* Ensure it takes the full viewport height */
+  overflow: hidden;
+  z-index: -1; /* Place it behind other elements */
+}
+
+@font-face {
+  font-family: "FF Mark Pro";
+  src: url("fonts/ffmarkpro.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.links-page-content {
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 90%;
+  margin: auto;
+  /* background-size: 200px; */
+}
+
+.links-section-title {
+  font-family: "FF Mark Pro", sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  display: block;
+  margin: 0;
+}
+
+.links-button {
+  font-family: "FF Mark Pro", sans-serif;
+  color: #ffffff;
+  background-color: #1f1beb;
+  font-weight: bold;
+  width: 100%;
+  padding: 20px;
+  font-size: 1em;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: "inherit";
+  position: relative; /* instead of absolute */
+  text-align: center; /* Centers text without flex */
+  display: inline-block; /* Prevent collapsing of dimensions */
+  vertical-align: middle; /* Aligns text properly */
+  z-index: 10;
+  /* bottom: 0; */
+}
+
+.links-button:hover {
+  background-color: #1f1beb;
+}
+
+.links-button::after {
+  content: ""; /* Empty content for the line */
+  position: absolute;
+  right: 0; /* Where it transitions towards! */
+  width: 0; /* Start with no width */
+  height: 100%; /* Thickness of the line */
+  bottom: 0;
+  background-color: #302929;
+  transition: width 0.3s ease; /* Smooth transition */
+  z-index: -1;
+}
+
+.links-button:hover::after {
+  /* content: attr(data-text); */
+  position: absolute;
+  text-align: center;
+  left: 0;
+  width: 100%; /* Expand the line to full width on hover */
+  background-color: #302929;
+  z-index: -1;
+}
