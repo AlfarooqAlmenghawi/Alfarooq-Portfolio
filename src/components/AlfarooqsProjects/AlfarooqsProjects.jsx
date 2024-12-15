@@ -87,37 +87,40 @@ const AlfarooqsProjects = () => {
             </div>
           </section>
           <hr />
-          <section className="late-plate-section">
-            <h2 className="late-plate-title">
-              Late Plate - Restaurant Availability Web Application
+          <section className="nc-news-section">
+            <h2 className="nc-news-title">
+              Northcoders News - Online Articles Web Application
             </h2>
-            <div className="late-plate-main-content">
+            <div className="nc-news-main-content">
               <img
-                className="late-plate-image"
-                src="/assets/projects-backdrops/late-plate.png"
+                className="nc-news-image"
+                src="/assets/projects-backdrops/nc-news.png"
               />
               <div className="descriptions-and-links">
-                <p className="late-plate-description">
-                  Created as a group of 7, this is a Restaurant Availability App
-                  for people who want to eat out but have missed the chance to
-                  book a table in advance. It uses the user’s location to give
-                  them access to the restaurants near them and make a booking
-                  for a table on the same day once a restaurant catches their
-                  eye. We also created a Restaurant Staff side web app where the
-                  staff can create and manage restaurants, tables and bookings
-                  made by customers.
+                <p className="nc-news-description">
+                  A Full-Stack application mimicking a news website, which draws
+                  information from a database of users, articles, topics and
+                  comments (backend), and displays them on the appropriate pages
+                  for the user to see (frontend).
                 </p>
                 <Link
                   className="projects-links-button"
-                  to="https://www.youtube.com/watch?v=9Olc02apbR8"
+                  to="https://alfarooq-northcoders-news.netlify.app/"
                 >
-                  Late Plate Project Demo Video {arrowIcon}
+                  NC News Hosted App {arrowIcon}
+                </Link>
+                <h3>GitHub Repositories:</h3>
+                <Link
+                  className="projects-links-button"
+                  to="https://github.com/AlfarooqAlmenghawi/fe-nc-news/"
+                >
+                  Frontend GitHub Repository {arrowIcon}
                 </Link>
                 <Link
                   className="projects-links-button"
-                  to="https://github.com/AlfarooqAlmenghawi/Restaurant_Staff_Website"
+                  to="https://github.com/AlfarooqAlmenghawi/nc-news/"
                 >
-                  GitHub Repository {arrowIcon}
+                  Backend GitHub Repository {arrowIcon}
                 </Link>
               </div>
             </div>
