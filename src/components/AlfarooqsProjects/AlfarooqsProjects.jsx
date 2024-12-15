@@ -71,12 +71,14 @@ const AlfarooqsProjects = () => {
                   staff can create and manage restaurants, tables and bookings
                   made by customers.
                 </p>
+                <h3 className="links-labels">Related Project Links:</h3>
                 <Link
                   className="projects-links-button"
                   to="https://www.youtube.com/watch?v=9Olc02apbR8"
                 >
                   Late Plate Project Demo Video {arrowIcon}
                 </Link>
+                <h3 className="links-labels">GitHub Repositories:</h3>
                 <Link
                   className="projects-links-button"
                   to="https://github.com/AlfarooqAlmenghawi/Restaurant_Staff_Website"
@@ -103,13 +105,20 @@ const AlfarooqsProjects = () => {
                   comments (backend), and displays them on the appropriate pages
                   for the user to see (frontend).
                 </p>
+                <h3 className="links-labels">Related Project Links:</h3>
                 <Link
                   className="projects-links-button"
                   to="https://alfarooq-northcoders-news.netlify.app/"
                 >
                   NC News Hosted App {arrowIcon}
                 </Link>
-                <h3>GitHub Repositories:</h3>
+                <Link
+                  className="projects-links-button"
+                  to="https://nc-news-uocp.onrender.com/api/"
+                >
+                  API {arrowIcon}
+                </Link>
+                <h3 className="links-labels">GitHub Repositories:</h3>
                 <Link
                   className="projects-links-button"
                   to="https://github.com/AlfarooqAlmenghawi/fe-nc-news/"

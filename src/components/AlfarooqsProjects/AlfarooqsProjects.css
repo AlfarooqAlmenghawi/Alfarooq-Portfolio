@@ -38,6 +38,10 @@
   position: relative;
 }
 
+.links-labels {
+  color: wheat;
+}
+
 .projects-links-button {
   font-family: "FF Mark Pro", sans-serif;
   color: #ffffff;
