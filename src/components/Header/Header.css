@@ -51,7 +51,8 @@ header {
 }
 
 .individual-link:hover {
-  background-color: #d3242d;
+  background-color: #eb1b24;
+  /* background-color: #d3242d; */
 }
 
 .individual-link::after {
