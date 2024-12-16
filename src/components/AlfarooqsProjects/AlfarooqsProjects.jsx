@@ -93,6 +93,13 @@ const AlfarooqsProjects = () => {
             <h2 className="nc-news-title">
               Northcoders News - Online Articles Web Application
             </h2>
+            <p className="nc-news-warning">
+              Note: The Hosted App and the API will delay the first request by
+              50+ seconds due to the free plan of Render as it spins down with
+              inactivity, so you will need to wait a bit before activating the
+              API. (In some cases in prolonged inactivity the supabase database
+              would have been paused so please notify me so I can restore it.)
+            </p>
             <div className="nc-news-main-content">
               <img
                 className="nc-news-image"

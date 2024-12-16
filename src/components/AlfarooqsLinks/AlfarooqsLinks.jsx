@@ -50,7 +50,10 @@ const AlfarooqsLinks = () => {
       <div id="particles-js-links" className="background"></div>
       <section>
         <h1 className="links-section-title">Alfarooqs Links</h1>
-        <summary>
+        <p className="links-description">
+          Here are my links to my related professional profiles.
+        </p>
+        <summary className="links-together">
           <Link
             className="links-button"
             to="https://github.com/AlfarooqAlmenghawi"
@@ -58,9 +61,21 @@ const AlfarooqsLinks = () => {
             <img
               src="assets/images/github.png"
               alt="Icon"
-              style={{ width: "20px", height: "20px" }}
+              style={{ width: "13px", height: "13px" }}
             />{" "}
             My GitHub {arrowIcon}
+          </Link>
+          <p></p>
+          <Link
+            className="links-button"
+            to="https://www.linkedin.com/in/alfarooq-almenghawi/"
+          >
+            <img
+              src="assets/images/linkedin.png"
+              alt="Icon"
+              style={{ width: "13px", height: "13px" }}
+            />{" "}
+            My LinkedIn {arrowIcon}
           </Link>
         </summary>
       </section>

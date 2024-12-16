@@ -132,6 +132,12 @@
   color: white;
 }
 
+.nc-news-warning {
+  width: 90%;
+  margin: auto;
+  color: yellow;
+}
+
 .nc-news-image {
   width: 25em;
   height: 100%;

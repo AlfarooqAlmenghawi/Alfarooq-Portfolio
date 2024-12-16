@@ -34,17 +34,27 @@
   margin: 0;
 }
 
+.links-description {
+  font-family: "FF Mark Pro", sans-serif;
+  text-align: center;
+  font-size: x-large;
+}
+
+.links-together {
+  margin: auto;
+  text-align: center;
+}
+
 .links-button {
   font-family: "FF Mark Pro", sans-serif;
-  color: #ffffff;
-  background-color: #1f1beb;
+  color: #000000;
+  background-color: #ffffff;
   font-weight: bold;
-  width: 100%;
+  width: 20%;
+  margin: auto;
+  margin-bottom: 10px;
   padding: 20px;
   font-size: 1em;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
   text-decoration: none;
   color: "inherit";
   position: relative; /* instead of absolute */
@@ -56,7 +66,7 @@
 }
 
 .links-button:hover {
-  background-color: #1f1beb;
+  background-color: #ffffff;
 }
 
 .links-button::after {
@@ -66,7 +76,7 @@
   width: 0; /* Start with no width */
   height: 100%; /* Thickness of the line */
   bottom: 0;
-  background-color: #302929;
+  background-color: #cfcece;
   transition: width 0.3s ease; /* Smooth transition */
   z-index: -1;
 }
@@ -77,6 +87,6 @@
   text-align: center;
   left: 0;
   width: 100%; /* Expand the line to full width on hover */
-  background-color: #302929;
+  background-color: #cfcece;
   z-index: -1;
 }
