@@ -10,7 +10,7 @@ const ContactAlfarooq = () => {
       // Initialize particles.js after the script is loaded
       window.particlesJS("particles-js-contact", {
         particles: {
-          number: { value: 100 },
+          number: { value: 40 },
           size: { value: 3 },
           move: { speed: 3 },
           color: { value: "#C9CB06" }, // Set particle color here

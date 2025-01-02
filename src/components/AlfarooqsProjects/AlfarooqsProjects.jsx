@@ -24,7 +24,7 @@ const AlfarooqsProjects = () => {
       // Initialize particles.js after the script is loaded
       window.particlesJS("particles-js-projects", {
         particles: {
-          number: { value: 100 },
+          number: { value: 40 },
           size: { value: 3 },
           move: { speed: 3 },
           color: { value: "#52bf89" }, // Set particle color here

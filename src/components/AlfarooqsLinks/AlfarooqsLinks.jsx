@@ -24,7 +24,7 @@ const AlfarooqsLinks = () => {
       // Initialize particles.js after the script is loaded
       window.particlesJS("particles-js-links", {
         particles: {
-          number: { value: 100 },
+          number: { value: 40 },
           size: { value: 3 },
           move: { speed: 3 },
           color: { value: "#eb34e1" }, // Set particle color here
