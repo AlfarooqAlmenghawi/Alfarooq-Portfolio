@@ -75,6 +75,7 @@ const AlfarooqsProjects = () => {
                 <Link
                   className="projects-links-button"
                   to="https://www.youtube.com/watch?v=9Olc02apbR8"
+                  target="_blank"
                 >
                   Late Plate Project Demo Video {arrowIcon}
                 </Link>
@@ -82,6 +83,7 @@ const AlfarooqsProjects = () => {
                 <Link
                   className="projects-links-button"
                   to="https://github.com/AlfarooqAlmenghawi/Restaurant_Staff_Website"
+                  target="_blank"
                 >
                   GitHub Repository {arrowIcon}
                 </Link>
@@ -116,12 +118,14 @@ const AlfarooqsProjects = () => {
                 <Link
                   className="projects-links-button"
                   to="https://alfarooq-northcoders-news.netlify.app/"
+                  target="_blank"
                 >
                   NC News Hosted App {arrowIcon}
                 </Link>
                 <Link
                   className="projects-links-button"
                   to="https://nc-news-uocp.onrender.com/api/"
+                  target="_blank"
                 >
                   API {arrowIcon}
                 </Link>
@@ -129,12 +133,14 @@ const AlfarooqsProjects = () => {
                 <Link
                   className="projects-links-button"
                   to="https://github.com/AlfarooqAlmenghawi/fe-nc-news/"
+                  target="_blank"
                 >
                   Frontend GitHub Repository {arrowIcon}
                 </Link>
                 <Link
                   className="projects-links-button"
                   to="https://github.com/AlfarooqAlmenghawi/nc-news/"
+                  target="_blank"
                 >
                   Backend GitHub Repository {arrowIcon}
                 </Link>

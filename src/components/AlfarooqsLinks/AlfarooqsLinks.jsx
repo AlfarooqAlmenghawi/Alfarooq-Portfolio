@@ -57,6 +57,7 @@ const AlfarooqsLinks = () => {
           <Link
             className="links-button"
             to="https://github.com/AlfarooqAlmenghawi"
+            target="_blank"
           >
             <img
               src="assets/images/github.png"
@@ -69,6 +70,7 @@ const AlfarooqsLinks = () => {
           <Link
             className="links-button"
             to="https://www.linkedin.com/in/alfarooq-almenghawi/"
+            target="_blank"
           >
             <img
               src="assets/images/linkedin.png"
