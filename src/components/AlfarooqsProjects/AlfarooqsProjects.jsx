@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./AlfarooqsProjects.css";
+import StackIcon from "tech-stack-icons";
 
 const arrowIcon = (
   <>
@@ -56,10 +57,20 @@ const AlfarooqsProjects = () => {
               Late Plate - Restaurant Availability Web Application
             </h2>
             <div className="late-plate-main-content">
-              <img
-                className="late-plate-image"
-                src="/assets/projects-backdrops/late-plate.png"
-              />
+              <div className="image-and-content">
+                <img
+                  className="late-plate-image"
+                  src="/assets/projects-backdrops/late-plate.png"
+                />
+                <p className="tech-stack-label">Teck Stacks:</p>
+                <div className="tech-stack-icons">
+                  <StackIcon className="tech-stack-icon" name="html5" />
+                  <StackIcon className="tech-stack-icon" name="tailwindcss" />
+                  <StackIcon className="tech-stack-icon" name="js" />
+                  <StackIcon className="tech-stack-icon" name="reactjs" />
+                  <StackIcon className="tech-stack-icon" name="supabase" />
+                </div>
+              </div>
               <div className="descriptions-and-links">
                 <p className="late-plate-description">
                   Created as a group of 7, this is a Restaurant Availability App
@@ -103,10 +114,22 @@ const AlfarooqsProjects = () => {
               would have been paused so please notify me so I can restore it.)
             </p>
             <div className="nc-news-main-content">
-              <img
-                className="nc-news-image"
-                src="/assets/projects-backdrops/nc-news.png"
-              />
+              <div className="image-and-content">
+                <img
+                  className="nc-news-image"
+                  src="/assets/projects-backdrops/nc-news.png"
+                />
+                <p className="tech-stack-label">Teck Stacks:</p>
+                <div className="tech-stack-icons">
+                  <StackIcon className="tech-stack-icon" name="html5" />
+                  <StackIcon className="tech-stack-icon" name="css3" />
+                  <StackIcon className="tech-stack-icon" name="js" />
+                  <StackIcon className="tech-stack-icon" name="reactjs" />
+                  <StackIcon className="tech-stack-icon" name="postgresql" />
+                  <StackIcon className="tech-stack-icon" name="supabase" />
+                  <StackIcon className="tech-stack-icon" name="render" />
+                </div>
+              </div>
               <div className="descriptions-and-links">
                 <p className="nc-news-description">
                   A Full-Stack application mimicking a news website, which draws

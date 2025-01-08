@@ -34,6 +34,27 @@
   margin: 0;
 }
 
+.image-and-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.tech-stack-label {
+  text-align: center;
+  color: white;
+}
+
+.tech-stack-icons {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+}
+
+.tech-stack-icon {
+  width: 2em;
+  margin-left: 1em;
+}
+
 .descriptions-and-links {
   position: relative;
 }
@@ -105,7 +126,6 @@
 
 .late-plate-image {
   width: 25em;
-  height: 100%;
   margin: 20px;
   border: 3px solid;
   border-color: aqua;
@@ -140,7 +160,6 @@
 
 .nc-news-image {
   width: 25em;
-  height: 100%;
   margin: 20px;
   border: 3px solid;
   border-color: rgb(43, 255, 0);
