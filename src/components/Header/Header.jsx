@@ -60,7 +60,7 @@ const Header = () => {
               to="/alfarooq's-projects"
               data-text="Alfarooq's Projects"
             >
-              Alfarooq's Projects {arrowIcon}
+              Projects {arrowIcon}
             </Link>
           ) : (
             <Link
@@ -68,7 +68,7 @@ const Header = () => {
               to="/alfarooq's-projects"
               data-text="Alfarooq's Projects"
             >
-              Alfarooq's Projects {arrowIcon}
+              Projects {arrowIcon}
             </Link>
           )}
 
@@ -78,7 +78,7 @@ const Header = () => {
               to="/contact-alfarooq"
               data-text="Contact Alfarooq"
             >
-              Contact Alfarooq {arrowIcon}
+              Contact {arrowIcon}
             </Link>
           ) : (
             <Link
@@ -86,7 +86,7 @@ const Header = () => {
               to="/contact-alfarooq"
               data-text="Contact Alfarooq"
             >
-              Contact Alfarooq {arrowIcon}
+              Contact {arrowIcon}
             </Link>
           )}
 
@@ -96,7 +96,7 @@ const Header = () => {
               to="/alfarooq's-links"
               data-text="Alfarooq's Links"
             >
-              Alfarooq's Links {arrowIcon}
+              Links {arrowIcon}
             </Link>
           ) : (
             <Link
@@ -104,7 +104,7 @@ const Header = () => {
               to="/alfarooq's-links"
               data-text="Alfarooq's Links"
             >
-              Alfarooq's Links {arrowIcon}
+              Links {arrowIcon}
             </Link>
           )}
         </section>
