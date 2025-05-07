@@ -9,8 +9,7 @@ const arrowIcon = (
       className="arrow-icon"
       fill="currentColor"
       viewBox="0 0 7 12"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+      xmlns="http://www.w3.org/2000/svg">
       <path d="M0 10.6L4.2 6 0 1.4 1.3 0l5.5 6-5.5 6L0 10.6z"></path>
     </svg>
   </>
@@ -50,7 +49,7 @@ const AlfarooqsProjects = () => {
     <main className="projects-page-content">
       <div id="particles-js-projects" className="background"></div>
       <section>
-        <h1 className="projects-section-title">Alfarooqs Projects</h1>
+        <h1 className="projects-section-title">Projects</h1>
         <summary>
           <section className="late-plate-section">
             <h2 className="late-plate-title">
@@ -86,16 +85,14 @@ const AlfarooqsProjects = () => {
                 <Link
                   className="projects-links-button"
                   to="https://www.youtube.com/watch?v=9Olc02apbR8"
-                  target="_blank"
-                >
+                  target="_blank">
                   Late Plate Project Demo Video {arrowIcon}
                 </Link>
                 <h3 className="links-labels">GitHub Repositories:</h3>
                 <Link
                   className="projects-links-button"
                   to="https://github.com/AlfarooqAlmenghawi/Restaurant_Staff_Website"
-                  target="_blank"
-                >
+                  target="_blank">
                   GitHub Repository {arrowIcon}
                 </Link>
               </div>
@@ -141,30 +138,26 @@ const AlfarooqsProjects = () => {
                 <Link
                   className="projects-links-button"
                   to="https://alfarooq-northcoders-news.netlify.app/"
-                  target="_blank"
-                >
+                  target="_blank">
                   NC News Hosted App {arrowIcon}
                 </Link>
                 <Link
                   className="projects-links-button"
                   to="https://nc-news-uocp.onrender.com/api/"
-                  target="_blank"
-                >
+                  target="_blank">
                   API {arrowIcon}
                 </Link>
                 <h3 className="links-labels">GitHub Repositories:</h3>
                 <Link
                   className="projects-links-button"
                   to="https://github.com/AlfarooqAlmenghawi/fe-nc-news/"
-                  target="_blank"
-                >
+                  target="_blank">
                   Frontend GitHub Repository {arrowIcon}
                 </Link>
                 <Link
                   className="projects-links-button"
                   to="https://github.com/AlfarooqAlmenghawi/nc-news/"
-                  target="_blank"
-                >
+                  target="_blank">
                   Backend GitHub Repository {arrowIcon}
                 </Link>
               </div>

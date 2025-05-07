@@ -8,8 +8,7 @@ const arrowIcon = (
       className="arrow-icon"
       fill="currentColor"
       viewBox="0 0 7 12"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+      xmlns="http://www.w3.org/2000/svg">
       <path d="M0 10.6L4.2 6 0 1.4 1.3 0l5.5 6-5.5 6L0 10.6z"></path>
     </svg>
   </>
@@ -49,16 +48,16 @@ const AlfarooqsLinks = () => {
     <main className="links-page-content">
       <div id="particles-js-links" className="background"></div>
       <section>
-        <h1 className="links-section-title">Alfarooqs Links</h1>
+        <h1 className="links-section-title">Links</h1>
         <p className="links-description">
-          Here are my links to my related professional profiles.
+          Here are links to my related profiles and accounts. You can find my
+          GitHub and LinkedIn profiles below
         </p>
         <summary className="links-together">
           <Link
             className="links-button"
             to="https://github.com/AlfarooqAlmenghawi"
-            target="_blank"
-          >
+            target="_blank">
             <img
               src="assets/images/github.png"
               alt="Icon"
@@ -70,8 +69,7 @@ const AlfarooqsLinks = () => {
           <Link
             className="links-button"
             to="https://www.linkedin.com/in/alfarooq-almenghawi/"
-            target="_blank"
-          >
+            target="_blank">
             <img
               src="assets/images/linkedin.png"
               alt="Icon"

@@ -38,12 +38,12 @@ const AboutAlfarooq = () => {
         <h1 className="about-section-title">About</h1>
         <summary>
           <p className="about-paragraph">
-            Hi there! My name is Alfarooq, and I have been passionate about
-            technology and intrigued by the world of software development since
-            my childhood. My journey began with exploring coding basics on
-            websites like W3Schools, sparking what would later become a passion
-            for coding. What started as simple curiosity has evolved into a
-            genuine love for solving problems and building creative solutions.
+            My name is Alfarooq and I have been passionate about technology and
+            intrigued by the world of software development since childhood. My
+            journey began with exploring coding basics on websites like
+            W3Schools, sparking what would later become a passion for coding.
+            What started as simple curiosity has evolved into a genuine love for
+            solving problems and building creative solutions.
           </p>
           <p className="about-paragraph">
             Growing up, I was surrounded by software developers, including
