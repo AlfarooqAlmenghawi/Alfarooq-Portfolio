@@ -35,7 +35,7 @@ const AboutAlfarooq = () => {
     <main className="about-page-content">
       <div id="particles-js-about" className="background"></div>
       <section>
-        <h1 className="about-section-title">About Alfarooq Almenghawi</h1>
+        <h1 className="about-section-title">About</h1>
         <summary>
           <p className="about-paragraph">
             Hi there! My name is Alfarooq, and I have been passionate about
