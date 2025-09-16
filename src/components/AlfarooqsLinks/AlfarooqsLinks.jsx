@@ -70,8 +70,7 @@ const AlfarooqsLinks = () => {
           {/* <Link
             className="links-button"
             to="https://www.linkedin.com/in/alfarooq-almenghawi/"
-            target="_blank"
-          >
+            target="_blank">
             <img
               src="assets/images/linkedin.png"
               alt="Icon"

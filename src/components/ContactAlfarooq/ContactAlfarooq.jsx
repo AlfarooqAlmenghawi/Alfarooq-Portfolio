@@ -35,14 +35,13 @@ const ContactAlfarooq = () => {
     <main className="contact-page-content">
       <div id="particles-js-contact" className="background"></div>
       <section>
-        <h1 className="contact-section-title">Contact Alfarooq</h1>
+        <h1 className="contact-section-title">Contact</h1>
         <summary>
           <p className="cridentials-information">
-            If you would like to reach out to provide a job opportunity, talk
-            about my work and experience or even speak together about all things
-            tech and programming (and potential project collaboration), I have
-            provided the means to contact me below! I am also contactable on{" "}
-            <i>WhatsApp</i> on the same number.
+            If you would like to reach out to provide a job opportunity or talk
+            about my work and experience I have provided the means to contact me
+            below and I am also contactable on <i>WhatsApp</i> on the same
+            number.
           </p>
           <p className="cridentials">
             <b>Email:</b> a.almenghawi123@gmail.com

@@ -50,6 +50,7 @@ const AlfarooqsProjects = () => {
     <main className="projects-page-content">
       <div id="particles-js-projects" className="background"></div>
       <section>
+        <h1 className="projects-section-title">Projects</h1>
         <h1 className="projects-section-title">Work and Experience</h1>
         <hr />
         <summary>
@@ -178,30 +179,26 @@ const AlfarooqsProjects = () => {
                 <Link
                   className="projects-links-button"
                   to="https://alfarooq-northcoders-news.netlify.app/"
-                  target="_blank"
-                >
+                  target="_blank">
                   NC News Hosted App {arrowIcon}
                 </Link>
                 <Link
                   className="projects-links-button"
                   to="https://nc-news-uocp.onrender.com/api/"
-                  target="_blank"
-                >
+                  target="_blank">
                   API {arrowIcon}
                 </Link>
                 <h3 className="links-labels">GitHub Repositories:</h3>
                 <Link
                   className="projects-links-button"
                   to="https://github.com/AlfarooqAlmenghawi/fe-nc-news/"
-                  target="_blank"
-                >
+                  target="_blank">
                   Frontend GitHub Repository {arrowIcon}
                 </Link>
                 <Link
                   className="projects-links-button"
                   to="https://github.com/AlfarooqAlmenghawi/nc-news/"
-                  target="_blank"
-                >
+                  target="_blank">
                   Backend GitHub Repository {arrowIcon}
                 </Link>
               </div>
