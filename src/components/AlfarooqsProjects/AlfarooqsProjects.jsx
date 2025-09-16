@@ -61,7 +61,7 @@ const AlfarooqsProjects = () => {
             <div className="late-plate-main-content">
               <div className="image-and-content">
                 <img
-                  className="late-plate-image"
+                  className="coaching-image"
                   src="/assets/projects-backdrops/events-platform.png"
                 />
               </div>
@@ -94,7 +94,7 @@ const AlfarooqsProjects = () => {
             <div className="late-plate-main-content">
               <div className="image-and-content">
                 <img
-                  className="late-plate-image"
+                  className="events-image"
                   src="/assets/projects-backdrops/coaching.png"
                 />
               </div>

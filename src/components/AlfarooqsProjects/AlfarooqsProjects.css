@@ -128,7 +128,21 @@
   width: 25em;
   margin: 20px;
   border: 3px solid;
-  border-color: aqua;
+  border-color: rgb(0, 89, 255);
+}
+
+.events-image {
+  width: 25em;
+  margin: 20px;
+  border: 3px solid;
+  border-color: rgb(50, 138, 62);
+}
+
+.coaching-image {
+  width: 25em;
+  margin: 20px;
+  border: 3px solid;
+  border-color: rgb(255, 29, 85);
 }
 
 .late-plate-description {
