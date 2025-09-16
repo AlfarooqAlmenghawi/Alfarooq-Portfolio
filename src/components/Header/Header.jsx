@@ -36,7 +36,7 @@ const Header = () => {
             </Link>
           )}
 
-          {url.pathname === "/about-alfarooq" ? (
+          {/* {url.pathname === "/about-alfarooq" ? (
             <Link
               className="individual-link-active-page"
               to="/about-alfarooq"
@@ -52,7 +52,7 @@ const Header = () => {
             >
               About Alfarooq {arrowIcon}
             </Link>
-          )}
+          )} */}
 
           {url.pathname === "/alfarooq's-projects" ? (
             <Link
@@ -72,7 +72,7 @@ const Header = () => {
             </Link>
           )}
 
-          {url.pathname === "/contact-alfarooq" ? (
+          {/* {url.pathname === "/contact-alfarooq" ? (
             <Link
               className="individual-link-active-page"
               to="/contact-alfarooq"
@@ -88,7 +88,7 @@ const Header = () => {
             >
               Contact {arrowIcon}
             </Link>
-          )}
+          )} */}
 
           {url.pathname === "/alfarooq's-links" ? (
             <Link

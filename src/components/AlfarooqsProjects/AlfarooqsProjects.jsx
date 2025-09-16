@@ -50,8 +50,45 @@ const AlfarooqsProjects = () => {
     <main className="projects-page-content">
       <div id="particles-js-projects" className="background"></div>
       <section>
-        <h1 className="projects-section-title">Alfarooqs Projects</h1>
+        <h1 className="projects-section-title">Work and Experience</h1>
+        <hr />
         <summary>
+          <section className="late-plate-section">
+            <h2 className="late-plate-title">
+              Life Coaching Website for PINT (People In Need Today)
+            </h2>
+            <div className="late-plate-main-content">
+              <div className="image-and-content">
+                <img
+                  className="late-plate-image"
+                  src="/assets/projects-backdrops/coaching.png"
+                />
+              </div>
+              <div className="descriptions-and-links">
+                <p className="late-plate-description">
+                  I have been volunteering in developing and designing a life
+                  coaching website for an organisation that will operate
+                  alongside their current work as a homeless charity. The
+                  organisation is called PINT (People In Need Today) and the
+                  website is intended to provide information about the life
+                  coaching services they offer, as well as resources and support
+                  for individuals seeking help. The website will also include a
+                  blog section where the organisation can share articles and
+                  updates related to life coaching and personal development.
+                </p>
+
+                <h3 className="links-labels">GitHub Repositories:</h3>
+                <Link
+                  className="projects-links-button"
+                  to="https://github.com/AlfarooqAlmenghawi/VIP-LIFE-COACH"
+                  target="_blank"
+                >
+                  GitHub Repository {arrowIcon}
+                </Link>
+              </div>
+            </div>
+          </section>
+          <hr />
           <section className="late-plate-section">
             <h2 className="late-plate-title">
               Late Plate - Restaurant Availability Web Application
@@ -62,14 +99,14 @@ const AlfarooqsProjects = () => {
                   className="late-plate-image"
                   src="/assets/projects-backdrops/late-plate.png"
                 />
-                <p className="tech-stack-label">Teck Stacks:</p>
+                {/* <p className="tech-stack-label">Teck Stacks:</p>
                 <div className="tech-stack-icons">
                   <StackIcon className="tech-stack-icon" name="html5" />
                   <StackIcon className="tech-stack-icon" name="tailwindcss" />
                   <StackIcon className="tech-stack-icon" name="js" />
                   <StackIcon className="tech-stack-icon" name="reactjs" />
                   <StackIcon className="tech-stack-icon" name="supabase" />
-                </div>
+                </div> */}
               </div>
               <div className="descriptions-and-links">
                 <p className="late-plate-description">
@@ -102,7 +139,7 @@ const AlfarooqsProjects = () => {
             </div>
           </section>
           <hr />
-          <section className="nc-news-section">
+          {/* <section className="nc-news-section">
             <h2 className="nc-news-title">
               Northcoders News - Online Articles Web Application
             </h2>
@@ -169,7 +206,7 @@ const AlfarooqsProjects = () => {
                 </Link>
               </div>
             </div>
-          </section>
+          </section> */}
         </summary>
       </section>
     </main>

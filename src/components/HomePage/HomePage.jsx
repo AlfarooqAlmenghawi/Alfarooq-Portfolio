@@ -62,24 +62,7 @@ const HomePage = () => {
       <section className="section-title-sizing">
         <TypeAnimation
           className="section-title"
-          sequence={[
-            "Welcome to Alfarooq Almenghawi's Portfolio",
-            3000,
-            "",
-            1000,
-            "Graduated from a coding bootcamp, aspiring to shape the tech industry",
-            3000,
-            "",
-            1000,
-            "Specializing in JavaScript, React, and backend development",
-            3000,
-            "",
-            1000,
-            "Let's build something amazing together!",
-            3000,
-            "",
-            1000,
-          ]}
+          sequence={["Welcome to Alfarooq's Portfolio", 3000, ""]}
           wrapper="span"
           speed={60}
           style={{}}
@@ -87,15 +70,13 @@ const HomePage = () => {
         />
       </section>
       <summary className="home-summary">
-        <p className="section-information">
-          Find more information about me and my full story here:
-        </p>
+        <p className="section-information">Find my work here:</p>
         <Link
           className="about-button"
-          to="/about-alfarooq"
-          data-text="About Alfarooq"
+          to="/alfarooq's-projects"
+          data-text="Projects and Examples of my Work"
         >
-          About Alfarooq {arrowIcon}
+          Projects and Examples of my Work {arrowIcon}
         </Link>
       </summary>
     </main>
