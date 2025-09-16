@@ -50,10 +50,43 @@ const AlfarooqsProjects = () => {
     <main className="projects-page-content">
       <div id="particles-js-projects" className="background"></div>
       <section>
-        <h1 className="projects-section-title">Projects</h1>
+        {/* <h1 className="projects-section-title">Projects</h1> */}
         <h1 className="projects-section-title">Work and Experience</h1>
-        <hr />
         <summary>
+          <hr />
+          <section className="late-plate-section">
+            <h2 className="late-plate-title">
+              Events Platform - Tech Returners Paid Contract
+            </h2>
+            <div className="late-plate-main-content">
+              <div className="image-and-content">
+                <img
+                  className="late-plate-image"
+                  src="/assets/projects-backdrops/events-platform.png"
+                />
+              </div>
+              <div className="descriptions-and-links">
+                <p className="late-plate-description">
+                  I took part in a paid contract worth £750 with Tech Returners
+                  to build an Events Platform for them. The platform allows
+                  users to view and book upcoming events, manage their bookings,
+                  and receive notifications about event updates. The platform
+                  also includes an admin dashboard where event organizers can
+                  create and manage events, view booking statistics, and
+                  communicate with attendees.
+                </p>
+                <h3 className="links-labels">Website:</h3>
+                <Link
+                  className="projects-links-button"
+                  to="https://alfarooq-events-platform.netlify.app/"
+                  target="_blank"
+                >
+                  Events Platform {arrowIcon}
+                </Link>
+              </div>
+            </div>
+          </section>
+          <hr />
           <section className="late-plate-section">
             <h2 className="late-plate-title">
               Life Coaching Website for PINT (People In Need Today)
@@ -89,6 +122,7 @@ const AlfarooqsProjects = () => {
               </div>
             </div>
           </section>
+
           <hr />
           <section className="late-plate-section">
             <h2 className="late-plate-title">
